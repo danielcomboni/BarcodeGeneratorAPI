@@ -45,7 +45,7 @@ namespace BarcodeGeneratorAPI.Core.Extensions
                 // set comments path for swagger JSON and UI
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                c.IncludeXmlComments(xmlPath);
+                //c.IncludeXmlComments(xmlPath);
             });
             #endregion
 
