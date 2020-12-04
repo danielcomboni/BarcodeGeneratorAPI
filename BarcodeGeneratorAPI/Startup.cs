@@ -28,7 +28,7 @@ namespace BarcodeGeneratorAPI
                 options.AddPolicy(MyAllowSpecificOrigins,
                     builder =>
                     {
-                        builder.WithOrigins("http://localhost:8080", "https://danielcomboni.github.io", "http://localhost:8081", "https://localhost:44397/", "https://localhost:44382", "https://localhost:44377", "https://localhost:44310", "https://pdf417viewer.herokuapp.com")
+                        builder.WithOrigins("http://localhost:8080", "https://barcodegeneratorclient.azurewebsites.net", "https://danielcomboni.github.io", "http://localhost:8081", "https://localhost:44397/", "https://localhost:44382", "https://localhost:44377", "https://localhost:44310", "https://pdf417viewer.herokuapp.com")
                             .AllowAnyHeader()
                             .AllowAnyMethod();
                     });
