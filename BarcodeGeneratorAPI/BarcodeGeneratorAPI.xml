@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BarcodeGeneratorAPI</name>
+    </assembly>
+    <members>
+        <member name="M:BarcodeGeneratorAPI.Controllers.EncodeController.PostContent(BarcodeGeneratorAPI.ViewModels.EncodedViewModel)">
+            <summary>
+            Encode data to PDF417 format
+            </summary>
+            <param name="data"></param>
+            <returns>PDF417 encoded image</returns>
+        </member>
+        <member name="M:BarcodeGeneratorAPI.Core.Helpers.BarcodeHelper.GenerateByteArray(System.String)">
+            <summary>
+            Generates a PDF417 encoded byte array of a string
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BarcodeGeneratorAPI.Services.GeneratorService.GetBytesArray(System.String)">
+            <summary>
+            Returns a PDF417 encoded bytes array from a given string
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

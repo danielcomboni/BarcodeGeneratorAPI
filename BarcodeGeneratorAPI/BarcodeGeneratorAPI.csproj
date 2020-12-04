@@ -4,5 +4,24 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Daniel\source\repos\BarcodeGeneratorAPI\BarcodeGeneratorAPI\BarcodeGeneratorAPI.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Serilog" Version="2.10.1-dev-01256" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.1-dev-00188" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.0.0-dev-00839" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0-dev-00905" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.ReDoc" Version="5.6.3" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.0" />
+    <PackageReference Include="ZXing.Net" Version="0.16.6" />
+  </ItemGroup>
+
 
 </Project>
