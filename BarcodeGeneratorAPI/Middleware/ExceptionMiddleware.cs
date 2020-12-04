@@ -31,7 +31,7 @@ namespace BarcodeGeneratorAPI.Middleware
         private Task HandleExceptionAsync(HttpContext context, Exception ex)
         {
             Log.Error($"{ex}");
-            var message = "Oops something went wrong!";
+            var message = $"Oops something went wrong!...{ex}";
             switch (ex)
             {
                 case ClientFriendlyException _:
