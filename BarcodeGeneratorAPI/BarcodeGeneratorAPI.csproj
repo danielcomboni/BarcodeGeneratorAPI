@@ -10,7 +10,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="10.1.1" />
+	  <!--personally added this to help with heroku build-->
+	  <PackageReference Include="Microsoft.NETCore.Targets" Version="3.1" PrivateAssets="all" />
+	  <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="Serilog" Version="2.10.1-dev-01256" />
     <PackageReference Include="Serilog.AspNetCore" Version="3.4.1-dev-00188" />
     <PackageReference Include="Serilog.Sinks.Console" Version="4.0.0-dev-00839" />
