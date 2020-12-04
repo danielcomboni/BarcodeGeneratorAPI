@@ -1,5 +1,5 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System ;
+using System.Threading.Tasks ;
 using BarcodeGeneratorAPI.Core.Exceptions ;
 using Microsoft.AspNetCore.Http ;
 using Newtonsoft.Json ;

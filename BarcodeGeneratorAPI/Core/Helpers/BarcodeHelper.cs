@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing ;
+﻿using System.Drawing ;
 using System.Drawing.Imaging ;
 using System.IO ;
-using System.Linq;
-using System.Threading.Tasks;
 using BarcodeGeneratorAPI.Core.Exceptions ;
 using ZXing ;
 using ZXing.Common ;
 
 namespace BarcodeGeneratorAPI.Core.Helpers
 {
+
     public class BarcodeHelper
     {
         /// <summary>
@@ -40,8 +37,8 @@ namespace BarcodeGeneratorAPI.Core.Helpers
 
             var pixelData = pdf417Writer.Write(content);
 
-            using var bitmap = new Bitmap(pixelData.Width, pixelData.Height, PixelFormat.Format32bppRgb);
-            using var ms = new MemoryStream();
+            using var bitmap = new Bitmap(pixelData.Width, pixelData.Height, PixelFormat.Format32bppRgb) ;
+            using var ms = new MemoryStream() ;
             // lock the data area for fast access
             var bitmapData = bitmap.LockBits(new Rectangle(0, 0, pixelData.Width, pixelData.Height),
                 ImageLockMode.WriteOnly, PixelFormat.Format32bppRgb);

@@ -1,12 +1,11 @@
-﻿using System;
-using System.IO;
-using System.Reflection;
+﻿using System ;
+using System.IO ;
+using System.Reflection ;
 using BarcodeGeneratorAPI.Core.Helpers ;
 using BarcodeGeneratorAPI.Services ;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.OpenApi.Models;
-
+using Microsoft.Extensions.Configuration ;
+using Microsoft.Extensions.DependencyInjection ;
+using Microsoft.OpenApi.Models ;
 
 namespace BarcodeGeneratorAPI.Core.Extensions
 {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using BarcodeGeneratorAPI.Core.Exceptions ;
+﻿using BarcodeGeneratorAPI.Core.Exceptions ;
 
 namespace BarcodeGeneratorAPI.Core.Helpers
 {

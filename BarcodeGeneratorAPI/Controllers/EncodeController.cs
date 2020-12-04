@@ -1,10 +1,9 @@
-﻿
-using System.Net.Mime;
+﻿using System.Net.Mime ;
 using BarcodeGeneratorAPI.Core.Exceptions ;
 using BarcodeGeneratorAPI.Services ;
 using BarcodeGeneratorAPI.ViewModels ;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http ;
+using Microsoft.AspNetCore.Mvc ;
 
 namespace BarcodeGeneratorAPI.Controllers
 {
@@ -28,7 +27,7 @@ namespace BarcodeGeneratorAPI.Controllers
         /// <returns>PDF417 encoded image</returns>
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(MediaTypeNames.Image))]
-        public IActionResult PostContent([FromBody] EncodedViewModel data)
+        public IActionResult PostContent([FromBody] EncodedViewModel data) 
         {
             if (!ModelState.IsValid)
             {

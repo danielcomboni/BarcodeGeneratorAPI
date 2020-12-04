@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using BarcodeGeneratorAPI.Core.Helpers ;
+﻿using BarcodeGeneratorAPI.Core.Helpers ;
 using ZXing ;
 
 namespace BarcodeGeneratorAPI.Services
@@ -19,9 +15,9 @@ namespace BarcodeGeneratorAPI.Services
             return BarcodeHelper.GenerateByteArray(content);
         }
 
-        public byte[] GetBytesArray(string content, BarcodeFormat barcodeFormat, int height, int width, int margin)
+        public byte [ ] GetBytesArray ( string content , BarcodeFormat barcodeFormat, int height, int width, int margin)
         {
-            return BarcodeHelper.GenerateByteArray(content, barcodeFormat, height, width, margin);
+            return  BarcodeHelper.GenerateByteArray(content, barcodeFormat, height, width, margin);
         }
     }
 }

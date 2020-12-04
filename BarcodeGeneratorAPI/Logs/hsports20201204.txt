@@ -1605,3 +1605,9 @@ File name: 'C:\Users\Daniel\source\repos\BarcodeGeneratorAPI\BarcodeGeneratorAPI
    at BarcodeGeneratorAPI.Middleware.ExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Daniel\source\repos\BarcodeGeneratorAPI\BarcodeGeneratorAPI\Middleware\ExceptionMiddleware.cs:line 22
 2020-12-04 07:24:37.976 +03:00 [INF] Starting HSPORTS API
 2020-12-04 07:45:45.755 +03:00 [INF] Starting HSPORTS API
+2020-12-04 08:02:23.395 +03:00 [INF] Starting HSPORTS API
+2020-12-04 10:00:19.214 +03:00 [INF] Starting HSPORTS API
+2020-12-04 10:12:07.762 +03:00 [INF] Starting HSPORTS API
+2020-12-04 10:15:11.573 +03:00 [INF] Starting HSPORTS API
+2020-12-04 10:18:13.075 +03:00 [INF] Starting HSPORTS API
+2020-12-04 10:19:17.926 +03:00 [INF] Starting HSPORTS API
