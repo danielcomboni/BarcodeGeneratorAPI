@@ -42,7 +42,8 @@ namespace BarcodeGeneratorAPI
                                 "http://localhost:54837", 
                                 "https://localhost:44382", 
                                 "https://localhost:44377", 
-                                "https://localhost:44310", 
+                                "https://localhost:44310",
+                                "https://barcode-generator-api-test.herokuapp.com",
                                 "https://pdf417viewer.herokuapp.com")
                             .AllowAnyHeader()
                             .AllowAnyMethod();

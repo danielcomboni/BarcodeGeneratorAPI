@@ -1604,3 +1604,4 @@ File name: 'C:\Users\Daniel\source\repos\BarcodeGeneratorAPI\BarcodeGeneratorAPI
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at BarcodeGeneratorAPI.Middleware.ExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Daniel\source\repos\BarcodeGeneratorAPI\BarcodeGeneratorAPI\Middleware\ExceptionMiddleware.cs:line 22
 2020-12-04 07:24:37.976 +03:00 [INF] Starting HSPORTS API
+2020-12-04 07:45:45.755 +03:00 [INF] Starting HSPORTS API
